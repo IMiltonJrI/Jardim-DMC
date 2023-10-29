@@ -8,57 +8,62 @@ body {
     color: rgb(207, 18, 18);
     font-family: 'Goldman', sans-serif;
     text-align: center;
-    text-shadow: 2px 2px black, -2px -2px black, 2px -2px black , -2px 2px black;
+    text-shadow: 2px 2px black, -2px -2px black, 2px -2px black, -2px 2px black;
     font-style: oblique;
     font-weight: bolder;
     font-size: 1.2em;
     margin: 0px 100px;
-    
+
 }
 
 a {
     text-decoration: none;
     color: grey;
-   
+
 
 }
-a:hover{
+
+a:hover {
     color: white;
-  
+
 }
 
 #jar-intro,
-#jar-supporting
- {
+#jar-supporting {
     border: 5px solid #4c3f37;
     margin: 50px;
 }
-#jar-intro{
+
+#jar-intro {
     margin-top: 0px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-#jar-link-list{
-    position :fixed;
+
+#jar-link-list {
+    position: fixed;
     right: calc(-400px);
     top: 0px;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
     width: 400px;
-    background-image:url(imagem/Rebellion.png) ;
+    background-image: url(imagem/Rebellion.png);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: 1% 50%;
     transition: 500ms;
     padding-left: 100px;
 }
-#jar-link-list:hover{
-right: 0;
+
+#jar-link-list:hover {
+    right: 0;
 
 }
-#jar-header{
-    background-image:url(imagem/Jester.jpg) ;
+
+#jar-header {
+    background-image: url(imagem/Jester.jpg);
     height: 300px;
     width: 100%;
     background-size: cover;
@@ -68,26 +73,32 @@ right: 0;
     text-align: center;
     padding: 0px;
 }
-#jar-header h1, #jar-header h2{
+
+#jar-header h1,
+#jar-header h2 {
     margin: 0px;
     color: aliceblue;
 }
-#jar-header h1{
-padding-top: 4%;
-font-size:100px ;
+
+#jar-header h1 {
+    padding-top: 4%;
+    font-size: 100px;
 }
-#jar-header h2{
+
+#jar-header h2 {
     font-size: 25px;
 }
-h3{ 
+
+h3 {
     color: black;
-    text-shadow: 2px 2px gray, -2px -2px gray, 2px -2px grey , -2px 2px grey;
+    text-shadow: 2px 2px gray, -2px -2px gray, 2px -2px grey, -2px 2px grey;
 }
-#jar-preamble{
+
+#jar-preamble {
     padding: 50px 25%;
     background-image: url(imagem/Doppelganger.png), url(imagem/Sparda.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 93% 50%, 7% 50%;
-    
+
 }
